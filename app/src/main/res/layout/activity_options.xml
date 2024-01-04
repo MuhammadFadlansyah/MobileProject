@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Options">
+
+    <Button
+        android:id="@+id/lihatuser"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:text="LIHAT USER"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/tambahuser"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:text="TAMBAH USER"/>
+</LinearLayout>
